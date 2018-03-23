@@ -48,7 +48,7 @@ public class University {
 		/**We prime our array with a sample student.*/
 		studentRoster[0] = new Student("Jeremy Greene", "0001", "Biology");
 		
-		//This loop will just go ahead and initialize the whole damn thing with blanks.
+		//This loop will just go ahead and initialize the whole thing with blanks.
 		for(int i = 0; i < studentRoster.length; i++) {
 			studentRoster[i] = new Student("", "", "");
 		}
